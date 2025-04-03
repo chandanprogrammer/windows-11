@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  position: relative;
+}
+.relative {
+  position: relative;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* --------- Main desktop screen ---------- */
+#main-desktop-screen {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/windows-11-dark-mode-blue.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+/* -------- Fullscreen toggle button style -------  */
+#fullscreenButton {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
+#fullscreenButton img {
+  width: 22px;
+}
+
+/* ------- taskbar style ------- */
+#taskbar {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background-color: rgba(17, 25, 40, 0.85);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 2em;
+  letter-spacing: 1px;
+  color: aliceblue;
+  z-index: 10;
+}
+
+/* ------ weather tab style -------- */
+#weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#weather img {
+  width: 20px;
+}
+#weather p {
+  font-size: 13px;
+}
+
+/* ------- application task style ------- */
+#application-task {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+#application-task img {
+  width: 36px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-img {
+  padding: 6px;
+}
+.settings-img {
+  padding: 4px;
+}
+.calculator-img {
+  padding: 4px;
+}
+#application-task img:hover {
+  background-color: #234271;
+  transition: 0.2s all linear;
+}
+.float {
+  display: none;
+  position: absolute;
+  top: -45px;
+  left: -6px;
+  font-size: 12px;
+  background-color: #274675;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* ------- battery level style ------  */
+#battery-level img {
+  width: 20px;
+}
+.battery-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 8px 14px;
+  font-size: 10px;
+}
+.hover-battery {
+  display: none;
+  position: absolute;
+  top: -45px;
+  left: -60px;
+  font-size: 12px;
+  background-color: #274675;
+  padding: 8px;
+  width: 210px;
+  border-radius: 4px;
+}
+
+/* ------- time and date style ------- */
+#date-time {
+  font-size: 13px;
+  line-height: 18px;
+}
+#time {
+  text-align: right;
+}

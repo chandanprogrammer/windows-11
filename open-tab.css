@@ -1,0 +1,30 @@
+#new-tab {
+  position: relative;
+  width: 100vw;
+  height: 100vh;  
+}
+#open-windows {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 7%;
+  width: 40vw;
+  height: 70vh;
+  transform: translate(-50%, 0);
+  /* backdrop-filter: blur(16px) saturate(177%);
+  -webkit-backdrop-filter: blur(16px) saturate(177%); */
+  background-color: #0b1e3f;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: aliceblue;
+  padding: 50px;
+}
+#open-windows input {
+  width: 100%;
+  font-size: 15px;
+  background-color: rgba(50, 52, 57, 0.976);
+  border: 1px solid #6a6a6a59;
+  padding: 8px 20px;
+  border-radius: 50px;
+  padding-left: 50px;
+}

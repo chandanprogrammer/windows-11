@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows 11</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="open-tab.css" />
+  </head>
+
+  <body>
+    <div id="main-desktop-screen">
+      <div id="fullscreenButton">
+        <img src="./images/full-screen.png" alt="" />
+      </div>
+      <div id="taskbar">
+        <div id="weather">
+          <div id="weather-img">
+            <img src="./images/cloudy.png" alt="" />
+          </div>
+          <p>Weather</p>
+        </div>
+        <div id="application-task">
+          <div class="relative">
+            <p class="float start">Start</p>
+            <img class="windows-img" src="./images/windows.png" alt="" />
+          </div>
+          <div class="relative">
+            <p class="float search">Search</p>
+            <img class="search-img" src="./images/search.png" alt="" />
+          </div>
+          <div class="relative">
+            <p class="float settings">Settings</p>
+            <img class="settings-img" src="./images/settings.png" alt="" />
+          </div>
+          <div class="relative">
+            <p class="float calculator">calculator</p>
+            <img class="calculator-img" src="./images/calculator.png" alt="" />
+          </div>
+        </div>
+        <div class="flex-row">
+          <div id="battery-level" class="relative">
+            <p class="hover-battery">Battery status: 100% remaining</p>
+            <div class="battery-img">
+              <img src="./images/full-battery.png" alt="" />
+              <span>100%</span>
+            </div>
+          </div>
+          <div id="date-time">
+            <div id="time">00:00 AM</div>
+            <div id="date">00/00/0000</div>
+          </div>
+        </div>
+      </div>
+      <div id="new-tab">
+        <!-- open windows tab  -->
+        <div id="open-windows">
+          <input type="text" placeholder="Search application" />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+  <script src="./js/togglefullscreen.js"></script>
+  <script src="./js/open.js"></script>
+</html>
