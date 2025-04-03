@@ -25,7 +25,7 @@ body {
 #main-desktop-screen {
   width: 100vw;
   height: 100vh;
-  background-image: url("./images/windows-11-dark-mode-blue.jpg");
+  background-image: url("../images/windows-11-dark-mode-blue.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -141,4 +141,24 @@ body {
 }
 #time {
   text-align: right;
+}
+
+/* ------- Mobile view not support -------- */
+#mobile-view {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #main-desktop-screen {
+    display: none;
+  }
+  #mobile-view {
+    display: inline;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
 }
