@@ -71,7 +71,7 @@ body {
   width: 20px;
 }
 #weather p {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 /* ------- application task style ------- */
@@ -136,7 +136,7 @@ body {
 
 /* ------- time and date style ------- */
 #date-time {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 18px;
 }
 #time {

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Settings",
+    "url": "settings.png"
+  },
+  {
+    "name": "Calculator",
+    "url": "calculator.png"
+  },
+  {
+    "name": "Video Player",
+    "url": "video.png"
+  },
+  {
+    "name": "Music Player",
+    "url": "music-player.png"
+  },
+  {
+    "name": "Photo",
+    "url": "picture.png"
+  },
+  {
+    "name": "Clock",
+    "url": "3d-alarm.png"
+  },
+  {
+    "name": "Calendar",
+    "url": "calendar.png"
+  },
+  {
+    "name": "Weather",
+    "url": "cloudy.png"
+  },
+  {
+    "name": "BMI",
+    "url": "body-mass-index.png"
+  },
+  {
+    "name": "Whatsapp",
+    "url": "whatsapp.png"
+  },
+  {
+    "name": "Facebook",
+    "url": "facebook.png"
+  },
+  {
+    "name": "Instagram",
+    "url": "instagram.png"
+  },
+  {
+    "name": "Linkedin",
+    "url": "linkedin.png"
+  },
+  {
+    "name": "Twitter",
+    "url": "twitter.png"
+  }
+]

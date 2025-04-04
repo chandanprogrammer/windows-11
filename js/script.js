@@ -1,37 +1,6 @@
 const timeElement = document.getElementById("time");
 const dateElement = document.getElementById("date");
 
-// move hover events
-const startImgElement = document.querySelector(".windows-img");
-const searchImgElement = document.querySelector(".search-img");
-const settingsImgElement = document.querySelector(".settings-img");
-const calculatorImgElement = document.querySelector(".calculator-img");
-
-startImgElement.addEventListener("mouseenter", () => {
-  document.querySelector(".start").style.display = "inline";
-});
-startImgElement.addEventListener("mouseout", () => {
-  document.querySelector(".start").style.display = "none";
-});
-searchImgElement.addEventListener("mouseenter", () => {
-  document.querySelector(".search").style.display = "inline";
-});
-searchImgElement.addEventListener("mouseout", () => {
-  document.querySelector(".search").style.display = "none";
-});
-settingsImgElement.addEventListener("mouseenter", () => {
-  document.querySelector(".settings").style.display = "inline";
-});
-settingsImgElement.addEventListener("mouseout", () => {
-  document.querySelector(".settings").style.display = "none";
-});
-calculatorImgElement.addEventListener("mouseenter", () => {
-  document.querySelector(".calculator").style.display = "inline";
-});
-calculatorImgElement.addEventListener("mouseout", () => {
-  document.querySelector(".calculator").style.display = "none";
-});
-
 // time and date display
 function dateTimeUpdate() {
   const now = new Date();
